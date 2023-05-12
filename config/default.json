@@ -1,0 +1,4 @@
+{
+    "DB_URL": "mongodb+srv://sparshkr24:sparshkr24@codemon.uvag1qj.mongodb.net/?retryWrites=true&w=majority",
+    "PORT": 3000
+}

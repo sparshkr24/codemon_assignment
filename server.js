@@ -2,22 +2,15 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const productRoutes = require("./routes/products");
+const connectDB = require("./config/db");
+const config = require("config");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
-const DB_URI = "mongodb+srv://sparshkr24:sparshkr24@codemon.uvag1qj.mongodb.net/?retryWrites=true&w=majority";
+const PORT = config.get('PORT') || 3000;
 
 // connect to the database
-mongoose
-  .connect(DB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => {
-    console.log("Connected to the database");
-  })
-  .catch((err) => {
-    console.log(`Failed to connect to the database: ${err}`);
-  });
+connectDB()
 
-// use body-parser middleware to parse incoming requests
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
