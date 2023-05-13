@@ -4,7 +4,7 @@
 
 ### 1. GET /products
 ##### - It displays all the products stored in the database (in the format {_id, name; description, price})
-![GetAll]('./screenshots/GetAll.png')
+<img src='./screenshots/GetAll.png' alt="GetAll">
 
 ### 2. GET /products/:productID
 ##### - It displays the details of the product with the specific id passed as parameter
@@ -21,5 +21,5 @@
 <img src='./screenshots/IdNotFound.png' alt="IdNotFound">
 
 ### 4. Performed Unit tests for the API to cover all possible cases
-<img src='./screenshots/UnitTest.png' alt="UnitTests">
+<img src='./screenshots/Screenshot (33).png' alt="UnitTests">
 
