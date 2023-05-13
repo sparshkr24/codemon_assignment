@@ -23,3 +23,4 @@
 ### 4. Performed Unit tests for the API to cover all possible cases
 <img src='./screenshots/Screenshot (33).png' alt="UnitTests">
 
+#### NOTE: I have included the databaseURL (environment variable) for the sake of easily cloning and running the project in your local device.
