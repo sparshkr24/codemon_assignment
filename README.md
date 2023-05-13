@@ -20,3 +20,6 @@
 ##### - Performed error handling when: invalid payload is sent (i.e price), product with the mentioned id is not found
 <img src='./screenshots/IdNotFound.png' alt="IdNotFound">
 
+### 4. Performed Unit tests for the API to cover all possible cases
+<img src='./screenshots/UnitTest.png' alt="UnitTests">
+
