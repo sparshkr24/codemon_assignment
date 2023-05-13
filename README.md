@@ -4,7 +4,7 @@
 
 ### 1. GET /products
 ##### - It displays all the products stored in the database (in the format {_id, name; description, price})
-<img src='./screenshots/GetAll.png' alt="GetAll" >
+![GetAll]('./screenshots/GetAll.png')
 
 ### 2. GET /products/:productID
 ##### - It displays the details of the product with the specific id passed as parameter
